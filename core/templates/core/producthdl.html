@@ -125,15 +125,16 @@
 
 
     <div class="row">
-{%for i in productHdl%}
+         {%for i in productHdl%}
         <div class="col-lg-4">
           <div class="testimonial-item">
-            <video  >
+            <video>
                 <source class="video-src"  src="{{i.videofile.url}}" type="video/mp4" />
               </video>
           </div>
-          {%endfor%}
+         
         </div><!-- End testimonial-item -->
+        {%endfor%}
     </div>
 </div>
 </section>
